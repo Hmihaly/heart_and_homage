@@ -32,6 +32,10 @@
     font-family: Brandon Grotesque regular;
     src: url(../fonts/Brandon_reg.otf);
 }
+@font-face {
+    font-family: Bickham Script Std;
+    src: url(../fonts/Bickham-Script-Std_6923.ttf);
+}
 body{
     color:#777;
     font-family:Brandon Grotesque regular,sans-serif;
