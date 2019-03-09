@@ -179,6 +179,7 @@ $(document).ready(function() {
                     $('#mobile-nav-toggle i').toggleClass('lnr-times lnr-bars');
                     $('#mobile-body-overly').fadeOut();
                 }
+                $('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
                 return false;
             }
         }

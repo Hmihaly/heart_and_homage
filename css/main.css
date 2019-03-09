@@ -534,6 +534,9 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media (max-width:767px){
+    .banner-content{
+        margin-top: 300px;
+    }
     .header-top{
         display:none
     }
@@ -557,13 +560,6 @@ h1,h2,h3,h4,h5,h6{
 }
 #logo{
     max-width:500px
-}
-@media (max-width:673px){
-    #logo{
-        max-width:150px;
-        margin-top:60px;
-        margin-left:20px
-    }
 }
 #header #logo h1{
     font-size:34px;
@@ -678,7 +674,7 @@ h1,h2,h3,h4,h5,h6{
     outline:none;
     cursor:pointer
 }
-@media (max-width:800px){
+@media (max-width:767px){
     #nav-menu-container{
         display:none
     }
@@ -1501,7 +1497,7 @@ h1,h2,h3,h4,h5,h6{
 .nav-menu ul ul{
     margin:0
 }
-@media (max-width:800px){
+@media (max-width:767px){
     #nav-menu-container{
         display:none
     }
@@ -2308,7 +2304,7 @@ h1,h2,h3,h4,h5,h6{
 .nav-menu ul ul{
     margin:0
 }
-@media (max-width:800px){
+@media (max-width:767px){
     #nav-menu-container{
         display:none
     }
@@ -2611,14 +2607,14 @@ h1,h2,h3,h4,h5,h6{
 }
 @media (max-width: 767px){
     #mobile-nav-toggle{
-        top:22px
+        top:10px
     }
 }
 #mobile-nav-toggle i{
     color:#222;
     font-weight:900
 }
-@media (max-width: 800px){
+@media (max-width: 767px){
     #mobile-nav-toggle{
         display:inline
     }
