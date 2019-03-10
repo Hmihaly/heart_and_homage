@@ -2440,6 +2440,9 @@ h1,h2,h3,h4,h5,h6{
 .home-guestbook-area h1{
     margin-bottom: 20px;
 }
+.home-our-core-values-area h1{
+    margin-bottom: 20px;
+}
 .home-guestbook-area:before{
     position:absolute;
     content:"";
