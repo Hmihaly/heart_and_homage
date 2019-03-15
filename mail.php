@@ -1,11 +1,12 @@
 <?php
-    $to = 'support@heartandhomage.com';
-    $firstname = $_POST["fname"];
-    $email= $_POST["email"];
-    $text= $_POST["message"];
-    $phone= $_POST["phone"];
-    
 
+    $to = 'support@heartandhomage.com';
+    $firstname = $_POST["firstName"];
+    $lastname = $_POST["lastName"];
+    $email= $_POST["email"];
+    $text= $_POST["howCanWeHelp"];
+    $phone= $_POST["phone"];
+    $amazonId = $_POST["amazonOrderID"];
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
@@ -16,12 +17,14 @@
             <td>'.$firstname.'  '.$laststname.'</td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>phone: '.$phone.'</td></tr>
-        <tr><td>Text: '.$text.'</td></tr>
+        <tr><td>Phone: '.$phone.'</td></tr>
+        <tr><td>Message: '.$text.'</td></tr>
+        <tr><td>Amazon Order Id: '.$amazonId.'</td></tr>
         
     </table>';
 
-    if (@mail($to, $email, $message, $headers))
+
+    if (mail($to, $email, $message, $headers))
     {
         echo 'The message has been sent.';
     }else{
