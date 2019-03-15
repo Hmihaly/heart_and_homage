@@ -697,6 +697,24 @@ h1,h2,h3,h4,h5,h6{
     background-image:-webkit-linear-gradient(0deg,#7f7f7f 0,#d8cdd6 100%);
     background-image:-ms-linear-gradient(0deg,#7f7f7f 0,#d8cdd6 100%)
 }
+.overlay-mail{
+    text-align: center;
+    vertical-align: middle;
+    z-index: 999;
+    opacity: 0.7;
+    background-color:#d8cdd6 ;
+}
+.overlay-mail .contact-response{
+    font-size: 30px;
+    font-weight: bold;
+    color: #111;
+    margin: 280px 0px;
+}
+@media (max-width:673px){
+    .overlay-mail .contact-response{
+        margin: 550px 0px;
+    }
+}
 .primary-btn{
     background-color:#3d1c1d;
     line-height:42px;
@@ -1397,6 +1415,7 @@ h1,h2,h3,h4,h5,h6{
 }
 @media (max-width:673px){
     #logo{
+        max-width: 300px;
         margin-left:20px
     }
 }
