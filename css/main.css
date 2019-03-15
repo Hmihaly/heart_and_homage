@@ -700,7 +700,7 @@ h1,h2,h3,h4,h5,h6{
 .overlay-mail{
     text-align: center;
     vertical-align: middle;
-    z-index: 999;
+    z-index: 996;
     opacity: 0.7;
     background-color:#d8cdd6 ;
 }
@@ -1416,7 +1416,6 @@ h1,h2,h3,h4,h5,h6{
 @media (max-width:673px){
     #logo{
         max-width: 300px;
-        margin-left:20px
     }
 }
 #header #logo h1{
