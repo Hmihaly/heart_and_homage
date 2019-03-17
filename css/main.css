@@ -2695,3 +2695,39 @@ body.mobile-nav-active #mobile-nav-toggle{
     font-size: 40px;
     line-height: 1;
 }
+.buy-now {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    background: #703435;
+    background-image: -webkit-linear-gradient(top, #703435, #3D1C1D);
+    background-image: -moz-linear-gradient(top, #703435, #3D1C1D);
+    background-image: -ms-linear-gradient(top, #703435, #3D1C1D);
+    background-image: -o-linear-gradient(top, #703435, #3D1C1D);
+    background-image: linear-gradient(to bottom, #703435, #3D1C1D);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 13px 25px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.buy-now:hover {
+    background: #3D1C1D;
+    color: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #3D1C1D, #703435);
+    background-image: -moz-linear-gradient(top, #3D1C1D, #703435);
+    background-image: -ms-linear-gradient(top, #3D1C1D, #703435);
+    background-image: -o-linear-gradient(top, #3D1C1D, #703435);
+    background-image: linear-gradient(to bottom, #3D1C1D, #703435);
+    text-decoration: none;
+}
