@@ -316,7 +316,7 @@ $(document).ready(function() {
             };
 
             var overlayMail = $('.overlay-mail');
-
+            overlayMail.toggleClass('d-none')
             // process the form
             $.ajax({
                 type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
